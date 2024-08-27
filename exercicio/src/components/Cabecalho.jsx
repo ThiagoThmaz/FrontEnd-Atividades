@@ -9,6 +9,7 @@ function Cabecalho1(){
                 atque adipisci tempore, iste sint fuga est numquam deleniti eaque error 
                 ad ipsam ipsa maxime enim provident?</p>
         </header>
+        
     )
 }
 
