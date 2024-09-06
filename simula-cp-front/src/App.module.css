@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicionado para evitar problemas de largura/altura com padding */
+}
+
+.container {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    width: 100%; /* Use 100% ao invés de 100vw para largura de elementos */
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: royalblue;
+}
+
+.nav a {
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Adicionado efeito hover */
+}
+
+.main {
+    display: flex;
+    width: 100%; /* Ajustado para 100% da largura do container */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: bisque;
+}
+
+.footer {
+    display: flex;
+    width: 100%; /* Ajustado para 100% da largura do container */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinhar ao centro para coerência */
+    height: 10vh;
+    background-color: darkblue;
+    color: #fff;
+    font-size: 32px;
+    text-align: center; /* Centralizar o texto */
+}
