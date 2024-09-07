@@ -3,29 +3,63 @@ import styled from "styled-components";
 export const HeaderB = styled.header`
     width: 100%;
     min-height: 8vh;
-    background-color: fff;
+    background-color: #fff; 
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #fff;
-`
+    border-bottom: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    h1 {
+        font-size: 1.8rem;
+        color: #333; 
+    }
+`;
 
 export const ImagesGerais = styled.img`
     width: 190px;
     padding: 20px;
-`
+    object-fit: cover; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+    
+    &:hover {
+        transform: scale(1.05);
+    }
+`;
 
 export const DivRP = styled.div`
     display: flex;
-`
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 20px;
+    margin-top: 20px;
+`;
+
 export const DivMae = styled.div`
-    padding: 10%;
-`
+    padding: 5% 10%; 
+    
+    @media (max-width: 768px) {
+        padding: 5%; 
+    }
+`;
 
 export const FooterRP = styled.footer`
- width: 100%;
+    width: 100%;
     min-height: 8vh;
-    background-color: fff;
+    background-color: #fff; 
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #fff;
-`
+    border-top: 1px solid #ddd; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
+    
+    h3 {
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #555;
+    }
+`;
+

@@ -7,6 +7,9 @@ import howard from "./../public/howard.jpg"
 import bernadette from "./../public/bernadette.jpg"
 import amy from "./../public/amy.jpg"
 import stuart from './../public/stuart.jpg'
+import canela from './../public/canela.jpg'
+import will from './../public/will.jpg'
+
 
 const sheldonImg: Image = {
     src: sheldon,
@@ -46,6 +49,16 @@ const bernadetteImg: Image = {
 const stuartImg: Image = {
     src: stuart,
     alt: 'Stuart'
+}
+
+const canelaImg: Image = {
+    src: canela,
+    alt: 'Stuart'
+}
+
+const willImg: Image = {
+    src: will,
+    alt: 'Will'
 }
 
 export const listaItem: items[] = [
@@ -89,6 +102,18 @@ export const listaItem: items[] = [
         img: stuartImg,
         nome: 'Stuart',
         descricao: 'Stuart Bloom'
+
+    },
+    {
+        img: canelaImg,
+        nome: 'Canela',
+        descricao: 'Não presta atenção no Raj'
+
+    },
+    {
+        img: willImg,
+        nome: 'Will',
+        descricao: 'Wil Wheaton'
 
     },
 
