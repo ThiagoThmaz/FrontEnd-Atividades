@@ -4,6 +4,7 @@ import { ImagesGerais } from "../../styled";
 import { DivRP } from "../../styled";
 import { DivMae } from "../../styled";
 import { FooterRP } from "../../styled";
+import AudioPlayer from "../audio";
 
 export default function Saida(){
     const item: items[] = listaItem;
@@ -20,6 +21,8 @@ export default function Saida(){
             ))}
             </DivRP>
             <FooterRP>
+            <AudioPlayer/>
+            <br />
             <h3>Feito por Thiago Thomaz</h3>
             <br />
             <p>RM: 557992</p>

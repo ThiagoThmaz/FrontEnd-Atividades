@@ -14,9 +14,6 @@ import arthur from './../public/arthur.jpg'
 import missy from  './../public/missy.jpg'
 import george from  './../public/george.jpg'
 
-
-
-
 const sheldonImg: Image = {
     src: sheldon,
     alt: 'Sheldon'
@@ -151,7 +148,7 @@ export const listaItem: items[] = [
     },
     {
         img: arthurImg,
-        nome: 'Bob Newhart',
+        nome: 'Arthur',
         descricao: 'Professor Proton'
 
     },
