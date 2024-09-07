@@ -1,13 +1,14 @@
 import './App.css'
+import Cabecalho from './Components/Cabecalho'
 import Home from './routes/Home'
-import Saida from './routes/Saida'
+
 
 function App() {
 
   return (
     <>
+      <Cabecalho/>
       <Home/>
-      <Saida/>
     </>
   )
 }
