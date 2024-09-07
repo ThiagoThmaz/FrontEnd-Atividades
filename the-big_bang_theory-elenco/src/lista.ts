@@ -6,6 +6,7 @@ import leonard from "./../public/leonard.jpg"
 import howard from "./../public/howard.jpg"
 import bernadette from "./../public/bernadette.jpg"
 import amy from "./../public/amy.jpg"
+import stuart from './../public/stuart.jpg'
 
 const sheldonImg: Image = {
     src: sheldon,
@@ -40,6 +41,11 @@ const howardImg: Image = {
 const bernadetteImg: Image = {
     src: bernadette,
     alt: 'Bernadette'
+}
+
+const stuartImg: Image = {
+    src: stuart,
+    alt: 'Stuart'
 }
 
 export const listaItem: items[] = [
@@ -77,6 +83,12 @@ export const listaItem: items[] = [
         img: bernadetteImg,
         nome: 'Bernadette',
         descricao: 'Bernadette Rostenkowski'
+
+    },
+    {
+        img: stuartImg,
+        nome: 'Stuart',
+        descricao: 'Stuart Bloom'
 
     },
 

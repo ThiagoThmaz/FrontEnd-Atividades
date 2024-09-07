@@ -15,7 +15,17 @@ export const ImagesGerais = styled.img`
 `
 
 export const DivRP = styled.div`
-    
     display: flex;
-    padding: 80px;
+`
+export const DivMae = styled.div`
+    padding: 10%;
+`
+
+export const FooterRP = styled.footer`
+ width: 100%;
+    min-height: 8vh;
+    background-color: fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
 `

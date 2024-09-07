@@ -2,12 +2,15 @@ import { listaItem } from "../../lista"
 import { items } from "../../items"
 import { ImagesGerais } from "../../styled";
 import { DivRP } from "../../styled";
+import { DivMae } from "../../styled";
+import { FooterRP } from "../../styled";
 
 export default function Saida(){
     const item: items[] = listaItem;
 
     return(
-        <DivRP>
+        <DivMae>
+            <DivRP>
             {item.map((i, index) => (
                 <div key={index}>
                     <h3>{i.nome}</h3>
@@ -15,7 +18,13 @@ export default function Saida(){
                     <ImagesGerais src={i.img.src} alt={i.img.alt} />
                 </div>
             ))}
-        </DivRP>
+            </DivRP>
+            <FooterRP>
+            <h3>Feito por Thiago Thomaz</h3>
+            <br />
+            <p>RM: 557992</p>
+            </FooterRP>
+        </DivMae>
     )
 }
 
