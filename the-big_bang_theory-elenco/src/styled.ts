@@ -19,7 +19,7 @@ export const ImagesGerais = styled.img`
     width: 190px;
     padding: 20px;
     object-fit: cover; 
-    border-radius: 10px; 
+    border-radius: 24px;
     transition: transform 0.3s ease; 
     
     &:hover {
