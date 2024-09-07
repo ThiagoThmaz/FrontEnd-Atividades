@@ -9,6 +9,7 @@ import amy from "./../public/amy.jpg"
 import stuart from './../public/stuart.jpg'
 import canela from './../public/canela.jpg'
 import will from './../public/will.jpg'
+import emily from './../public/emilly.webp'
 
 
 const sheldonImg: Image = {
@@ -53,12 +54,17 @@ const stuartImg: Image = {
 
 const canelaImg: Image = {
     src: canela,
-    alt: 'Stuart'
+    alt: 'canela'
 }
 
 const willImg: Image = {
     src: will,
     alt: 'Will'
+}
+
+const emillyImg: Image = {
+    src: emily,
+    alt: 'Emily'
 }
 
 export const listaItem: items[] = [
@@ -107,13 +113,20 @@ export const listaItem: items[] = [
     {
         img: canelaImg,
         nome: 'Canela',
-        descricao: 'Não presta atenção no Raj'
+        descricao: 'Cadela do Raj'
 
     },
     {
         img: willImg,
         nome: 'Will',
         descricao: 'Wil Wheaton'
+
+    },
+
+    {
+        img: emillyImg,
+        nome: 'Emily',
+        descricao: 'Emily Sweeney'
 
     },
 
