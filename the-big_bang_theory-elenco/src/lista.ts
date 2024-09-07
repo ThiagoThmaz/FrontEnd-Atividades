@@ -10,6 +10,11 @@ import stuart from './../public/stuart.jpg'
 import canela from './../public/canela.jpg'
 import will from './../public/will.jpg'
 import emily from './../public/emilly.webp'
+import arthur from './../public/arthur.jpg'
+import missy from  './../public/missy.jpg'
+import george from  './../public/george.jpg'
+
+
 
 
 const sheldonImg: Image = {
@@ -65,6 +70,21 @@ const willImg: Image = {
 const emillyImg: Image = {
     src: emily,
     alt: 'Emily'
+}
+
+const arthurImg: Image = {
+    src: arthur,
+    alt: 'Arthur'
+}
+
+const missyImg: Image = {
+    src: missy,
+    alt: 'Missy'
+}
+
+const georgeImg: Image = {
+    src: george,
+    alt: 'George'
 }
 
 export const listaItem: items[] = [
@@ -127,6 +147,24 @@ export const listaItem: items[] = [
         img: emillyImg,
         nome: 'Emily',
         descricao: 'Emily Sweeney'
+
+    },
+    {
+        img: arthurImg,
+        nome: 'Bob Newhart',
+        descricao: 'Professor Proton'
+
+    },
+    {
+        img: missyImg,
+        nome: 'Missy',
+        descricao: 'Missy Cooper'
+
+    },
+    {
+        img: georgeImg,
+        nome: 'George',
+        descricao: 'George Cooper Jr'
 
     },
 

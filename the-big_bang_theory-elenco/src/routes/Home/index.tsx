@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <div>
         <HeaderB>
-        <h1>Elenco The Big Bang Theory</h1>
+        <h1>The Big Bang Theory</h1>
         </HeaderB>
         </div>
     )
