@@ -20,10 +20,11 @@ export const ImagesGerais = styled.img`
     padding: 20px;
     object-fit: cover; 
     border-radius: 24px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    cursor: pointer;
     
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.10);
     }
 `;
 
