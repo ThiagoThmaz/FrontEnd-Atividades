@@ -1,14 +1,12 @@
-import './App.css'
+import { Outlet } from 'react-router-dom'
 import Cabecalho from './Components/Cabecalho'
-import Home from './routes/Home'
-
 
 function App() {
 
   return (
     <>
       <Cabecalho/>
-      <Home/>
+      <Outlet/>
     </>
   )
 }

@@ -64,3 +64,35 @@ export const FooterRP = styled.footer`
     }
 `;
 
+export const ErrorContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+`;
+
+export const ErrorTitle = styled.h1`
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+`;
+
+export const ErrorMessage = styled.h3`
+    font-size: 1.5rem;
+    color: #333;
+`;
+
+export const ErrorLink = styled.a`
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`;
