@@ -88,11 +88,13 @@ export const ErrorMessage = styled.h3`
 
 export const ErrorLink = styled.a`
     font-size: 1rem;
-    color: #007bff;
+    color: paleturquoise;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 10px;
+    transition: 0.3s ;
 
     &:hover {
-        text-decoration: underline;
+        transition: 0.10s;
+        color: orange;
     }
 `;

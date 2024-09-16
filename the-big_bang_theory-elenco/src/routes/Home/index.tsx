@@ -1,14 +1,11 @@
-import { listaItem } from "../../lista"
+import { tbb } from "../../tbb"
 import { items } from "../../items"
-import { ImagesGerais } from "../../styled";
-import { DivRP } from "../../styled";
-import { DivMae } from "../../styled";
-import { FooterRP } from "../../styled";
+import { ImagesGerais, DivMae, DivRP, FooterRP, ErrorMessage, ErrorLink } from "../../styled";
 import AudioPlayer from "../../Components/audio";
+import { Link } from "react-router-dom";
 
 export default function Home(){
-    const item: items[] = listaItem;
-
+    const item: items[] = tbb;
     return(
         <DivMae>
             <DivRP>
@@ -18,14 +15,16 @@ export default function Home(){
                     <p>{i.descricao}</p>
                     <ImagesGerais src={i.img.src} alt={i.img.alt} />
                 </div>
+                
             ))}
             </DivRP>
             <FooterRP>
             <AudioPlayer/>
             <br />
-            <h3>Feito por Thiago Thomaz</h3>
+            <ErrorMessage><ErrorLink as={Link} to='/js'>Jovem Sheldon</ErrorLink></ErrorMessage>
             <br />
-            <p>RM: 557992</p>
+            <h3>Feito por: Thiago Thomaz</h3>
+            <br/>
             </FooterRP>
         </DivMae>
     )

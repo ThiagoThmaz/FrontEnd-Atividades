@@ -84,47 +84,47 @@ const georgeImg: Image = {
     alt: 'George'
 }
 
-export const listaItem: items[] = [
+export const tbb: items[] = [
     {
        img: sheldonImg,
-       nome: 'Sheldon',
-       descricao: 'Sheldon Cooper'
+       nome: 'Sheldon Cooper',
+       descricao: 'Jim Parsons'
     },
     {
         img: amyImg,
-        nome: 'Amy',
-        descricao: 'Amy Farrah Fowler'
+        nome: 'Mayim Bialik',
+        descricao: 'Mayim Bialik'
     },
     {
         img: pennyImg,
-        nome: 'Penny',
-        descricao: 'Penny Hofstadter'
+        nome: 'Penny Hofstadter',
+        descricao: 'Kaley Cuoco'
     },
     {
         img: leonardImg,
-        nome: 'Leonard',
-        descricao: 'Leonard Hofstadter'
+        nome: 'Leonard Hofstadter',
+        descricao: 'Johnny Galecke'
     },
     {
         img: rajeshImg,
-        nome: 'Rajesh',
-        descricao: 'Rajesh Koothrappali'
+        nome: 'Rajesh Koothrappali',
+        descricao: 'Kunal Nayyar'
     },
     {
         img: howardImg,
-        nome: 'Howard',
-        descricao: 'Howard Wolowitz'
+        nome: 'Howard Wolowitz',
+        descricao: 'Simon Helberg'
     },
     {
         img: bernadetteImg,
-        nome: 'Bernadette',
-        descricao: 'Bernadette Rostenkowski'
+        nome: 'Bernadette Rostenkowski',
+        descricao: 'Melissa Rauch'
 
     },
     {
         img: stuartImg,
-        nome: 'Stuart',
-        descricao: 'Stuart Bloom'
+        nome: 'Stuart Bloom',
+        descricao: 'Kevin Sussman'
 
     },
     {
@@ -135,33 +135,33 @@ export const listaItem: items[] = [
     },
     {
         img: willImg,
-        nome: 'Will',
+        nome: 'Will Wheaton',
         descricao: 'Wil Wheaton'
 
     },
 
     {
         img: emillyImg,
-        nome: 'Emily',
-        descricao: 'Emily Sweeney'
+        nome: 'Emily Sweeney',
+        descricao: 'Laura Spencer'
 
     },
     {
         img: arthurImg,
-        nome: 'Arthur',
+        nome: 'Bob Newhart',
         descricao: 'Professor Proton'
 
     },
     {
         img: missyImg,
-        nome: 'Missy',
-        descricao: 'Missy Cooper'
+        nome: 'Missy Cooper',
+        descricao: 'Courtney Henggeler'
 
     },
     {
         img: georgeImg,
-        nome: 'George',
-        descricao: 'George Cooper Jr'
+        nome: 'George Cooper Jr',
+        descricao: 'Jerry O Connell'
 
     },
 

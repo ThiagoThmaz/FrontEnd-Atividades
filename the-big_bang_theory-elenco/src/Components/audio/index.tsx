@@ -4,7 +4,7 @@ import tbbMusica from '../../../public/MusicaTBB.mp3'
 function AudioPlayer(){
     return(
         <div>
-            <h3>Musica de Abertura</h3>
+            <h3>The Big Bang Theory</h3>
             <br />
             <ReactAudioPlayer src={tbbMusica} controls/>
         </div>

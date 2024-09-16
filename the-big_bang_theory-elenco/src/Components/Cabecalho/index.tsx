@@ -4,7 +4,7 @@ export default function Cabecalho(){
     return(
         <div>
         <HeaderB>
-        <h1>The Big Bang Theory</h1>
+        <h1>Universo The Big Bang Theory</h1>
         </HeaderB>
         </div>
     )

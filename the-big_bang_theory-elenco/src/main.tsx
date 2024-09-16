@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from './routes/Home/index.tsx'
 import Error from './routes/Error/index.tsx'
+import JovemSheldon from './routes/JovemSheldon/index.tsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
+      {
+        path: '/js',
+        element: <JovemSheldon/>
+      }
     ]
   }
 ])
