@@ -1,8 +1,7 @@
 import { tbb } from "../../tbb"
 import { items } from "../../items"
-import { ImagesGerais, DivMae, DivRP, FooterRP, ErrorMessage, ErrorLink } from "../../styled";
+import { ImagesGerais, DivMae, DivRP, FooterRP} from "../../styled";
 import AudioPlayer from "../../Components/audio";
-import { Link } from "react-router-dom";
 
 export default function Home(){
     const item: items[] = tbb;
@@ -21,7 +20,6 @@ export default function Home(){
             <FooterRP>
             <AudioPlayer/>
             <br />
-            <ErrorMessage><ErrorLink as={Link} to='/js'>Jovem Sheldon</ErrorLink></ErrorMessage>
             <br />
             <h3>Feito por: Thiago Thomaz</h3>
             <br/>

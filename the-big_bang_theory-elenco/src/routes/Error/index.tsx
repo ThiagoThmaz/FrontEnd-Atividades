@@ -9,6 +9,6 @@ export default function Error(){
             <h1>Error 404 - Pagina não encontrada.</h1>
         </ErrorTitle>
         <ErrorMessage>Voltar para a Pagina principal <ErrorLink as={Link} to='/'>Clique aqui</ErrorLink></ErrorMessage>
-        </ErrorContainer>       
+       </ErrorContainer>       
     )
 }
